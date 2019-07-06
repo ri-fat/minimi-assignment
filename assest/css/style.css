@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900');
+
+*{
+	margin: 0;
+}
+body{
+	font-family: 'Lato', sans-serif;
+}
+.container{
+	width: 1140px;
+	margin: 0 auto;
+}
+.img-center{
+	display: block;
+    margin: 0 auto; 
+}
+/* header section */
+header{
+	background-color: #f6f9f9;
+	padding: 50px 50px;
+}
+.press-section h1{
+    color: #130202;
+    text-transform: uppercase;
+    background-color: #f6f9f9;
+    float: left;
+    width: 50%;
+}
+.menu-sectionP{
+	color: #130202;
+	background-color: #fff;
+    float: right;
+    width: 50%;
+}
+.menu-section nav ul li{
+	display: inline;
+    list-style: none;
+    margin: 5px 25px;
+    float: right;
+}
+.menu-section nav ul li a:hover{
+	cursor: pointer;
+	color: #ed3f0b;
+	transition: ease 0.4s all;
+	-webkit-transition:ease 0.4s all;
+	-moz-transition:ease 0.4s all;
+	-o-transition:ease 0.4s all;
+}
+.wpress{
+	background-color: #fff;
+	padding: 0px 20px;
+}
+.photodairy{
+	padding: 50px 20px;
+	width: 100%;
+	float: left;
+}
+.photodairy-padd h3{
+    text-align: center;
+    color: #8888;
+    float: left;
+    margin: 0px 83px;
+    padding: 10px 0px;
+}
+.photodairy-padd p{
+    line-height: 26px;
+    padding: 15px 80px;
+    color: #000000f0;
+    float: left;
+    text-align: center;
+}
+.photodairy-padd{
+	width: 50%;
+	float: left;
+}
+.sign{
+	background-color: #f6f9f9;
+	padding: 20px 0px;
+	float: left;
+	width: 100%;
+}
+.from-control{
+	width: 100%;
+    height: 50px;
+    border: none;
+    padding: 10px 20px;
+    color: #8888;
+    font-size: 30px;
+    text-align: center;
+    background-color: transparent;
+}
+.sign-group{
+	width: 100%;
+}
+.tittle-border{
+	border: 1px solid #5d3e3e;
+    width: 40%;
+    display: block;
+    margin: 0 auto;
+}
+ footer{
+   width: 100%;
+   float: left;
+   padding: 20px 0px;
+ }   
+.footer-left,
+.footer-right{
+	width: 50%;
+    float: left;
+}
+.footer-right ul{
+	float: right;
+}
+.footer-right ul li{
+	display: inline;
+	list-style: none;
+	margin-right: 8px;
+}
+.footer-right ul li .fa{
+	background-color: #15a4fa;
+    width: 20px;
+    height: 20px;
+    padding: 10px 10px;
+    text-align: center;
+    color: #fff;
+}
+.footer-right ul li .fa:hover{
+	cursor: pointer;
+	color: #ed3f0b;
+	transition: ease 0.4s all;
+	-webkit-transition:ease 0.4s all;
+	-moz-transition:ease 0.4s all;
+	-o-transition:ease 0.4s all;
+}
